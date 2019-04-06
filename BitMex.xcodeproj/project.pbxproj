@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A586210E2257487700468439 /* BMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A586210D2257487700468439 /* BMNavigationController.m */; };
 		A5EFFEA922573DC200D0DE3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFEA822573DC200D0DE3F /* AppDelegate.m */; };
-		A5EFFEAC22573DC200D0DE3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFEAB22573DC200D0DE3F /* ViewController.m */; };
-		A5EFFEAF22573DC200D0DE3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EFFEAD22573DC200D0DE3F /* Main.storyboard */; };
 		A5EFFEB122573DC300D0DE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EFFEB022573DC300D0DE3F /* Assets.xcassets */; };
 		A5EFFEB422573DC300D0DE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EFFEB222573DC300D0DE3F /* LaunchScreen.storyboard */; };
 		A5EFFEB722573DC300D0DE3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFEB622573DC300D0DE3F /* main.m */; };
 		A5EFFEC122573DC300D0DE3F /* BitMexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFEC022573DC300D0DE3F /* BitMexTests.m */; };
 		A5EFFECC22573DC300D0DE3F /* BitMexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFECB22573DC300D0DE3F /* BitMexUITests.m */; };
+		A5EFFEDE22573F3F00D0DE3F /* BMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFEDD22573F3F00D0DE3F /* BMTabBarController.m */; };
+		A5EFFEE122573FF200D0DE3F /* BMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFEE022573FF200D0DE3F /* BMBaseController.m */; };
+		A5EFFEE52257401000D0DE3F /* BMHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFEE32257401000D0DE3F /* BMHomeController.m */; };
+		A5EFFEE62257401000D0DE3F /* BMHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5EFFEE42257401000D0DE3F /* BMHomeController.xib */; };
+		A5EFFEFD2257415500D0DE3F /* BMSetingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFFEFB2257415500D0DE3F /* BMSetingController.m */; };
+		A5EFFEFE2257415500D0DE3F /* BMSetingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5EFFEFC2257415500D0DE3F /* BMSetingController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A586210C2257487700468439 /* BMNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMNavigationController.h; sourceTree = "<group>"; };
+		A586210D2257487700468439 /* BMNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMNavigationController.m; sourceTree = "<group>"; };
 		A5EFFEA422573DC200D0DE3F /* BitMex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitMex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EFFEA722573DC200D0DE3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5EFFEA822573DC200D0DE3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5EFFEAA22573DC200D0DE3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5EFFEAB22573DC200D0DE3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A5EFFEAE22573DC200D0DE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5EFFEB022573DC300D0DE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5EFFEB322573DC300D0DE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5EFFEB522573DC300D0DE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,16 @@
 		A5EFFEC722573DC300D0DE3F /* BitMexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitMexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EFFECB22573DC300D0DE3F /* BitMexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitMexUITests.m; sourceTree = "<group>"; };
 		A5EFFECD22573DC300D0DE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EFFEDC22573F3F00D0DE3F /* BMTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMTabBarController.h; sourceTree = "<group>"; };
+		A5EFFEDD22573F3F00D0DE3F /* BMTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMTabBarController.m; sourceTree = "<group>"; };
+		A5EFFEDF22573FF200D0DE3F /* BMBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMBaseController.h; sourceTree = "<group>"; };
+		A5EFFEE022573FF200D0DE3F /* BMBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMBaseController.m; sourceTree = "<group>"; };
+		A5EFFEE22257401000D0DE3F /* BMHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMHomeController.h; sourceTree = "<group>"; };
+		A5EFFEE32257401000D0DE3F /* BMHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMHomeController.m; sourceTree = "<group>"; };
+		A5EFFEE42257401000D0DE3F /* BMHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BMHomeController.xib; sourceTree = "<group>"; };
+		A5EFFEFA2257415500D0DE3F /* BMSetingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMSetingController.h; sourceTree = "<group>"; };
+		A5EFFEFB2257415500D0DE3F /* BMSetingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMSetingController.m; sourceTree = "<group>"; };
+		A5EFFEFC2257415500D0DE3F /* BMSetingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BMSetingController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +115,11 @@
 		A5EFFEA622573DC200D0DE3F /* BitMex */ = {
 			isa = PBXGroup;
 			children = (
+				A5EFFEDB22573EC400D0DE3F /* Config */,
+				A5EFFEDA22573EB400D0DE3F /* Module */,
+				A5EFFED922573E9500D0DE3F /* Base */,
 				A5EFFEA722573DC200D0DE3F /* AppDelegate.h */,
 				A5EFFEA822573DC200D0DE3F /* AppDelegate.m */,
-				A5EFFEAA22573DC200D0DE3F /* ViewController.h */,
-				A5EFFEAB22573DC200D0DE3F /* ViewController.m */,
-				A5EFFEAD22573DC200D0DE3F /* Main.storyboard */,
 				A5EFFEB022573DC300D0DE3F /* Assets.xcassets */,
 				A5EFFEB222573DC300D0DE3F /* LaunchScreen.storyboard */,
 				A5EFFEB522573DC300D0DE3F /* Info.plist */,
@@ -130,6 +144,103 @@
 				A5EFFECD22573DC300D0DE3F /* Info.plist */,
 			);
 			path = BitMexUITests;
+			sourceTree = "<group>";
+		};
+		A5EFFED922573E9500D0DE3F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFFEDC22573F3F00D0DE3F /* BMTabBarController.h */,
+				A5EFFEDD22573F3F00D0DE3F /* BMTabBarController.m */,
+				A5EFFEDF22573FF200D0DE3F /* BMBaseController.h */,
+				A5EFFEE022573FF200D0DE3F /* BMBaseController.m */,
+				A586210C2257487700468439 /* BMNavigationController.h */,
+				A586210D2257487700468439 /* BMNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A5EFFEDA22573EB400D0DE3F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFFEEB2257406800D0DE3F /* Seting */,
+				A5EFFEE72257402000D0DE3F /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A5EFFEDB22573EC400D0DE3F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A5EFFEE72257402000D0DE3F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFFEEA2257404800D0DE3F /* Controller */,
+				A5EFFEE92257403800D0DE3F /* View */,
+				A5EFFEE82257402F00D0DE3F /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A5EFFEE82257402F00D0DE3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5EFFEE92257403800D0DE3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5EFFEEA2257404800D0DE3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFFEE22257401000D0DE3F /* BMHomeController.h */,
+				A5EFFEE32257401000D0DE3F /* BMHomeController.m */,
+				A5EFFEE42257401000D0DE3F /* BMHomeController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A5EFFEEB2257406800D0DE3F /* Seting */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFFEF6225740D400D0DE3F /* Controller */,
+				A5EFFEF5225740C800D0DE3F /* View */,
+				A5EFFEF4225740BC00D0DE3F /* Model */,
+			);
+			path = Seting;
+			sourceTree = "<group>";
+		};
+		A5EFFEF4225740BC00D0DE3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5EFFEF5225740C800D0DE3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5EFFEF6225740D400D0DE3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFFEFA2257415500D0DE3F /* BMSetingController.h */,
+				A5EFFEFB2257415500D0DE3F /* BMSetingController.m */,
+				A5EFFEFC2257415500D0DE3F /* BMSetingController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +346,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EFFEFE2257415500D0DE3F /* BMSetingController.xib in Resources */,
 				A5EFFEB422573DC300D0DE3F /* LaunchScreen.storyboard in Resources */,
+				A5EFFEE62257401000D0DE3F /* BMHomeController.xib in Resources */,
 				A5EFFEB122573DC300D0DE3F /* Assets.xcassets in Resources */,
-				A5EFFEAF22573DC200D0DE3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +374,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5EFFEAC22573DC200D0DE3F /* ViewController.m in Sources */,
+				A5EFFEDE22573F3F00D0DE3F /* BMTabBarController.m in Sources */,
 				A5EFFEB722573DC300D0DE3F /* main.m in Sources */,
+				A5EFFEFD2257415500D0DE3F /* BMSetingController.m in Sources */,
 				A5EFFEA922573DC200D0DE3F /* AppDelegate.m in Sources */,
+				A5EFFEE52257401000D0DE3F /* BMHomeController.m in Sources */,
+				A586210E2257487700468439 /* BMNavigationController.m in Sources */,
+				A5EFFEE122573FF200D0DE3F /* BMBaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +416,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A5EFFEAD22573DC200D0DE3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5EFFEAE22573DC200D0DE3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5EFFEB222573DC300D0DE3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

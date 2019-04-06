@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BMBaseController.h
 //  BitMex
 //
 //  Created by banwang on 2019/4/5.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface BMBaseController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
